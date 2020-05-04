@@ -1,0 +1,14 @@
+v = v.reshape((v.shape[0]*v.shape[1], v.shape[2]))
+
+x_norm = np.linalg.norm(x, ord=2, axis=1, keepdims=True)
+    
+    # Divide x by its norm.
+    x = x/x_norm
+
+(1/m)*(np.sum((Y*np.log(A)) + (1-Y) *np.log(1-A)))
+
+dw = (1/m)* np.dot(X, ((A-Y).T))
+ db = (1/m) * np.sum(A-Y)
+
+s9e21 20min
+NA
